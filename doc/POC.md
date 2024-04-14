@@ -89,9 +89,9 @@ Build a docker image with the application and push it to the docker registry. Th
 
 Open in a browser <https://127.0.0.1:8080/>, allow using a self signed certificate, log in to Argo CD API server using credentials obtained above.
 
-![task5_image0.png](task5_image0.png)
-
 Click the **+ New App**
+
+![task5_image0.png](task5_image0.png)
 
 Give your app the name `hello-app`, use the project `default`, and set the
 sync policy as `Automatic`.
