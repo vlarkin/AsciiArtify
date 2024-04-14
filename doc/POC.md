@@ -79,7 +79,7 @@ In created helm chart **hello-app** edit values.yaml
 image:
   repository: europe-docker.pkg.dev/project-id/docker-images/hello-app
   pullPolicy: IfNotPresent
-  tag: "1.2"
+  tag: "1.1"
 
 imagePullSecrets:
     - name: artifact-registry
