@@ -10,7 +10,7 @@ Installed kubectl command-line tool and a kubeconfig file with a current cluste
 k3d-argo
 ```
 
-Credendieals in docker.json for accessing a private docker registry created in GCP Atrifact Registry.
+Credendieals in `docker.json` for accessing a private docker registry created in GCP Atrifact Registry.
 
 ## **Install Argo CD**
 
@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 ## **Access The Argo CD API Server**
 
-The default username is **admin**, and the password is auto-generated
+The default username is `admin`, and the password is auto-generated
 and can be retrieved by running the following command
 
 ```
@@ -144,7 +144,7 @@ volodymyr.larkin@H09XXM6W9W ~ % curl http://127.0.0.1:8000 && echo
 Hello from hello-app-7cb9f795dd-jjhl9! Application version 1.2
 ```
 
-After some time Argo CD clean ups the environment
+After some time Argo CD clean ups the environment from the previous release
 
 ![task5_image7.png](task5_image7.png)
 
