@@ -29,8 +29,7 @@ The default username is `admin`, and the password is auto-generated
 and can be retrieved by running the following command
 
 ```
-kubectl -n argocd get secret argocd-initial-admin-secret -o
-jsonpath="{.data.password}" \| base64 -d && echo
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d && echo
 ```
 
 Use port forward for providing an access to the Argo CD API Server
