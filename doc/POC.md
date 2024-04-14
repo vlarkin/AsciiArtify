@@ -77,14 +77,12 @@ In created helm chart **hello-app** edit values.yaml
 
 ```
 image:
-
-repository:
-    europe-docker.pkg.dev/project-id/docker-images/hello-app
-    pullPolicy: IfNotPresent
-    tag: "1.2"
+  repository: europe-docker.pkg.dev/project-id/docker-images/hello-app
+  pullPolicy: IfNotPresent
+  tag: "1.2"
 
 imagePullSecrets:
-- name: artifact-registry
+    - name: artifact-registry
 ```
 
 Build a docker image with the application and push it to the docker registry. Then merge all changes into the main branch and update the source code repository stored in Github.
