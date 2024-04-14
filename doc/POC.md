@@ -4,8 +4,10 @@
 ## **Requirements**
 
 Installed kubectl command-line tool and a kubeconfig file with a current cluster context.
+Let's use lightweight k3d for deploying a Kubernetes cluster (this helps to avoid creating one more VM).
 
 ```
+% k3d cluster create argo
 % kubectl config current-context
 k3d-argo
 ```
