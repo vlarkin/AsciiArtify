@@ -5,6 +5,8 @@ Fork a repository with the application so that we can make changes to it and che
 
 Log in to Argo CD API server and click **+ New App**
 
+![go-demo-app-1.gif](go-demo-app-1.gif)
+
 In **General** section, set application name to `go-demo-app`, use the project `default`, and set the sync policy `Automatic`. Also tick the `Auto create namespace` option.
 
 In **Source** section, set the fork repository URL and Path to `helm` where the helm charts are stored.
@@ -12,13 +14,12 @@ In **Source** section, set the fork repository URL and Path to `helm` where the 
 For **Destination**, set the cluster URL to https://kubernetes.default.svc and
 the namespace to `go-demo-app`.
 
-![go-demo-app-1.gif](go-demo-app-1.gif)
-
 Once the application is created, you can now view its status.
 
 ![go-demo-app-2.gif](go-demo-app-2.gif)
 
-The full video of deploying an application provided by the developers
+
+Watch the full video of deploying an application provided by the developers:
 
 [![Deploying an application provided by the developers](https://img.youtube.com/vi/hfMHhPf1rI4/0.jpg)](https://youtu.be/hfMHhPf1rI4)
 
