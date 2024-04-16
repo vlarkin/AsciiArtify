@@ -227,6 +227,10 @@ Docker workflows and providing fast cluster creation.
 **k3d** shines with its lightweight design, compatibility with various
 architectures, and automation capabilities.
 
+## **Selected and suggested tool**
+
+I'd like to suggest considering **k3d** as our preferred tool. k3d stands out as a lightweight option that doesn't require the creation of an extra virtual machine, which can significantly reduce overhead and resource consumption on developers' machines. Moreover, k3d offers fast startup times and excellent compatibility with various projects, making it an ideal choice for streamlined development workflows. By leveraging k3d, we can provide developers with a seamless Kubernetes environment that meets their needs for speed, efficiency, and compatibility with diverse project requirements.
+
 ## **Risks with Docker licensing**
 
 As **Docker** continues to evolve, users face potential risks associated
